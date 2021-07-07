@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smartech | Technology and blogging site</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <div class="menu-btn-wrapper">
+          <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+          </div>
+        </div>
+        <a href="/index.html" class="nav-brand"><span>S</span>martech</a>
+
+        <ul class="flex nav">
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./blogs.html"> Blogs</a>
+          </li>
+          <li>
+            <a href="./index.html">Events</a>
+          </li>
+          <li>
+            <a href="./contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="./index.html">About</a>
+          </li>
+          <li class="search-btn flex">
+            <a id="s_open" href="#"><i class="fas fa-search"></i></a>
+            <a href="#" id="s_close"><i class="fas fa-times"></i></a>
+            <form action="#">
+              <input type="text" placeholder="Search.." />
+            </form>
+          </li>
+        </ul>
+        <ul class="flex">
+          <li>
+            <a class="login-btn" href="./login.html"
+              ><i class="fas fa-sign-in-alt"></i> Login</a
+            >
+          </li>
+          <div class="dropdown" style="display: none">
+            <div class="user-img">
+              <img src="./images/avatar.png" alt="avatar" />
+            </div>
+            <div class="dropdown-content">
+              <div class="user-info">
+                <span class="name">Shrek jr.</span>
+                <span class="email">shrek@gmail.com</span>
+                <span></span>
+              </div>
+              <a href="#"><i class="fas fa-user-circle"></i> Your profile</a>
+              <a href="#"><i class="fas fa-cog"></i> Setting</a>
+              <a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </header>
+
+    <!-- showcase sec -->
+    <section class="showcase">
+      <div class="container flex">
+        <div class="showcase-txt">
+          <h1>
+            Boost Your <span>Knowledge</span> <br />
+            And <span>Skills</span> with us
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+            voluptates quibusdam iste repellat, accusantium aspernatur mollitia?
+          </p>
+        </div>
+        <div class="showcase-img">
+          <img src="./images/undraw_in_thought_gjsf.svg" alt="image" />
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1624096802">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- popular blog sec -->
+    <section class="blog_sec my-5 txt-center">
+      <div class="container">
+        <h2 class="txt-dark my-2">Our Recent Posts</h2>
+        <div class="blogs grid grid-4 my-3">
+          <a href="#">See all <i class="fas fa-chevron-right"></i></a>
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/design.jpg" alt="image" />
+              <span class="badge badge-success">popular</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                Best adobe products web developers must know
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet lo..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/design1.jpg" alt="image" />
+              <span class="badge badge-danger">Hot</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                Top 10 design principles for web designers
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="./images/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg"
+                alt="image"
+              />
+              <span class="badge">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                How often you should code to be successfu..
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="./images/pankaj-patel-Fi-GJaLRGKc-unsplash.jpg"
+                alt="image"
+              />
+              <span class="badge badge-success">Popular</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                Cool tips and tricks for javascript developer
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/wp8114669-docker-wallpapers.jpg" alt="image" />
+              <span class="badge badge-danger">Hot</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                This is why you should use docker in 2021
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet lo..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="./images/pankaj-patel-1IW4HQuauSU-unsplash.jpg"
+                alt="image"
+              />
+              <span class="badge">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                How to be successfull programmer in 2021
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="./images/flipmart.jpg" alt="image" />
+              <span class="badge badge-danger">Hot</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                Top 10 Free website to get free ecommerse template
+              </h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="./images/krakenimages-376KN_ISplE-unsplash.jpg"
+                alt="image"
+              />
+              <span class="badge badge">New</span>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">10 things to make your clients happy</h4>
+              <p class="card-txt">Lorem ipsum dolor sit amet..</p>
+              <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- info sec -->
+    <section class="info_sec">
+      <div class="custom-shape-divider-bottom-1624221028">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container">
+        <h2><span>Services</span> We Provide</h2>
+        <p>
+          Beside Posting Blog on Technology Sector, We provide <br />
+          solution for your business
+        </p>
+        <div class="info flex">
+          <div class="info-txt">
+            <ul class="service-list">
+              <li>
+                <i class="fa fa-check-circle"></i> Develop full stack website /
+                mern stack
+              </li>
+              <li>
+                <i class="fa fa-check-circle"></i> Real time chat application
+              </li>
+              <li>
+                <i class="fa fa-check-circle"></i>
+                Progressive web app / pwa
+              </li>
+              <li><i class="fa fa-check-circle"></i> Chat bots</li>
+              <li>
+                <i class="fa fa-check-circle"></i> Build android and ios app
+              </li>
+              <li>
+                <i class="fa fa-check-circle"></i>
+                Ecommerse website
+              </li>
+            </ul>
+          </div>
+          <div class="info-img">
+            <img src="./images/undraw_services_5tv9.svg" alt="image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq_sec my-5">
+      <div class="custom-shape-divider-top-1624264121">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <h2>Frequently Asked Questions!</h2>
+      <div class="container flex">
+        <div class="faq-img">
+          <img src="./images/undraw_Questions_re_1fy7.svg" alt="image" />
+        </div>
+        <div class="faqs flex">
+          <div class="faq">
+            <button class="faq-btn">
+              What is Smartech? <i class="fas fa-chevron-down"></i>
+            </button>
+
+            <div class="faq-content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae distinctio illum eveniet quas exercitationem dolore iure
+              eum rerum perspiciatis sit?
+            </div>
+          </div>
+          <div class="faq">
+            <button class="faq-btn">
+              What is Smartech main features?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae distinctio illum eveniet quas exercitationem dolore iure
+              eum rerum perspiciatis sit?
+            </div>
+          </div>
+          <div class="faq">
+            <button class="faq-btn">
+              How can I order for website development?
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae distinctio illum eveniet quas exercitationem dolore iure
+              eum rerum perspiciatis sit?
+            </div>
+          </div>
+          <div class="faq">
+            <button class="faq-btn">
+              What is Smartech? <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae distinctio illum eveniet quas exercitationem dolore iure
+              eum rerum perspiciatis sit?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact sec -->
+    <section class="contact_sec">
+      <div class="custom-shape-divider-top-1624266766">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container flex">
+        <h2>
+          Still <span>Not</span> Getting What <br />
+          You Wanted?
+        </h2>
+        <a href="#" class="contact-btn">Contact Us</a>
+      </div>
+    </section>
+    <!-- footer sec -->
+    <footer>
+      <div class="custom-shape-divider-bottom-1624273034">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <div class="container grid grid-4">
+        <ul class="logo">
+          <li class="footer-title">Quick links</li>
+          <li class="quick_link">
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+          </li>
+        </ul>
+        <ul class="support">
+          <li class="footer-title">Support Us</li>
+          <li>
+            <a href="#">Feedback</a>
+            <a href="#">Report Bugs</a>
+            <a href="#">Donate</a>
+          </li>
+        </ul>
+        <ul class="service">
+          <li class="footer-title">Our Services</li>
+          <li>
+            <a href="#">Website</a>
+            <a href="#">Android </a>
+            <a href="#">Ios</a>
+            <a href="#">Bot</a>
+          </li>
+        </ul>
+        <ul class="about">
+          <li>
+            <a href="/index.html" class="nav-brand"><span>S</span>martech</a>
+          </li>
+          <li>
+            Smartech is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Totam, alias!
+          </li>
+          <li class="social_link">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-reddit"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div style="text-align: center" class="footer-btm">
+        <div class="container">&copy; 2021 Smartech copy right reserved</div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
